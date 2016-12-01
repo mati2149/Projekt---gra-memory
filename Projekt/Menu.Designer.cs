@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.autorzy = new System.Windows.Forms.Button();
+            this.start = new System.Windows.Forms.Button();
+            this.koniec = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,11 +45,41 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // autorzy
+            // 
+            this.autorzy.Location = new System.Drawing.Point(30, 340);
+            this.autorzy.Name = "autorzy";
+            this.autorzy.Size = new System.Drawing.Size(150, 50);
+            this.autorzy.TabIndex = 1;
+            this.autorzy.Text = "Autorzy";
+            this.autorzy.UseVisualStyleBackColor = true;
+            // 
+            // start
+            // 
+            this.start.Location = new System.Drawing.Point(30, 140);
+            this.start.Name = "start";
+            this.start.Size = new System.Drawing.Size(150, 50);
+            this.start.TabIndex = 2;
+            this.start.Text = "Rozpocznij gre";
+            this.start.UseVisualStyleBackColor = true;
+            // 
+            // koniec
+            // 
+            this.koniec.Location = new System.Drawing.Point(30, 440);
+            this.koniec.Name = "koniec";
+            this.koniec.Size = new System.Drawing.Size(150, 50);
+            this.koniec.TabIndex = 3;
+            this.koniec.Text = "Koniec gry";
+            this.koniec.UseVisualStyleBackColor = true;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.koniec);
+            this.Controls.Add(this.start);
+            this.Controls.Add(this.autorzy);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Menu";
@@ -59,5 +92,8 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button autorzy;
+        private System.Windows.Forms.Button start;
+        private System.Windows.Forms.Button koniec;
     }
 }
