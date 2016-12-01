@@ -16,5 +16,31 @@ namespace Projekt
         {
             InitializeComponent();
         }
+        private void klawiszStart_Klik(object sender, EventArgs e)
+        {
+            start.Enabled = false;
+            start.Visible = false;
+            latwe.Enabled = true;
+            latwe.Visible = true;
+            trudne.Enabled = true;
+            trudne.Visible = true;
+        }
+        private void klawiszAutorzy_Klik(object sender, EventArgs e)
+        {
+            autorzy.Enabled = false;
+            autorzy.Visible = false;
+            pictureBox2.Visible = true;
+        }
+
+        private void klawiszZakończ_Klik(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+        private void klawiszLatwe_Klik(object sender, EventArgs e)
+        {
+            Application.Run(new Form1());
+        }
+
+
     }
 }

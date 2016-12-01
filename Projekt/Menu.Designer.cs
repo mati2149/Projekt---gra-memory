@@ -33,7 +33,11 @@
             this.autorzy = new System.Windows.Forms.Button();
             this.start = new System.Windows.Forms.Button();
             this.koniec = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.latwe = new System.Windows.Forms.Button();
+            this.trudne = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -53,6 +57,7 @@
             this.autorzy.TabIndex = 1;
             this.autorzy.Text = "Autorzy";
             this.autorzy.UseVisualStyleBackColor = true;
+            this.autorzy.Click += new System.EventHandler(this.klawiszAutorzy_Klik);
             // 
             // start
             // 
@@ -72,11 +77,44 @@
             this.koniec.Text = "Koniec gry";
             this.koniec.UseVisualStyleBackColor = true;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(400, 350);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(300, 200);
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
+            // 
+            // latwe
+            // 
+            this.latwe.Location = new System.Drawing.Point(300, 200);
+            this.latwe.Name = "latwe";
+            this.latwe.Size = new System.Drawing.Size(150, 50);
+            this.latwe.TabIndex = 5;
+            this.latwe.Text = "Łatwe";
+            this.latwe.UseVisualStyleBackColor = true;
+            this.latwe.Visible = false;
+            // 
+            // trudne
+            // 
+            this.trudne.Location = new System.Drawing.Point(550, 200);
+            this.trudne.Name = "trudne";
+            this.trudne.Size = new System.Drawing.Size(150, 50);
+            this.trudne.TabIndex = 6;
+            this.trudne.Text = "Trudne";
+            this.trudne.UseVisualStyleBackColor = true;
+            this.trudne.Visible = false;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.trudne);
+            this.Controls.Add(this.latwe);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.koniec);
             this.Controls.Add(this.start);
             this.Controls.Add(this.autorzy);
@@ -85,6 +123,7 @@
             this.Name = "Menu";
             this.Text = "Menu";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -95,5 +134,8 @@
         private System.Windows.Forms.Button autorzy;
         private System.Windows.Forms.Button start;
         private System.Windows.Forms.Button koniec;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button latwe;
+        private System.Windows.Forms.Button trudne;
     }
 }
