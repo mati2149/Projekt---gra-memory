@@ -38,9 +38,18 @@ namespace Projekt
         }
         private void klawiszLatwe_Klik(object sender, EventArgs e)
         {
-            Application.Run(new Form1());
+            this.Visible = false;
+            Form1 Frml = new Form1();
+            Frml.ShowDialog();
+            this.Close();
         }
-
+        private void klawiszTrudne_Klik(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form2 Frmt = new Form2();
+            Frmt.ShowDialog();
+            this.Close();
+        }
 
     }
 }

@@ -67,6 +67,7 @@
             this.start.TabIndex = 2;
             this.start.Text = "Rozpocznij gre";
             this.start.UseVisualStyleBackColor = true;
+            this.start.Click += new System.EventHandler(this.klawiszStart_Klik);
             // 
             // koniec
             // 
@@ -76,6 +77,7 @@
             this.koniec.TabIndex = 3;
             this.koniec.Text = "Koniec gry";
             this.koniec.UseVisualStyleBackColor = true;
+            this.koniec.Click += new System.EventHandler(this.klawiszZakończ_Klik);
             // 
             // pictureBox2
             // 
@@ -96,6 +98,7 @@
             this.latwe.Text = "Łatwe";
             this.latwe.UseVisualStyleBackColor = true;
             this.latwe.Visible = false;
+            this.latwe.Click += new System.EventHandler(this.klawiszLatwe_Klik);
             // 
             // trudne
             // 
@@ -106,6 +109,7 @@
             this.trudne.Text = "Trudne";
             this.trudne.UseVisualStyleBackColor = true;
             this.trudne.Visible = false;
+            this.trudne.Click += new System.EventHandler(this.klawiszTrudne_Klik);
             // 
             // Menu
             // 
