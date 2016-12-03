@@ -32,3 +32,16 @@ C:\Users\Mateusz\Desktop\projekt progi\06 comm\Projekt\obj\Debug\Projekt.Form1.r
 C:\Users\Mateusz\Desktop\projekt progi\06 comm\Projekt\obj\Debug\Projekt.Menu.resources
 C:\Users\Mateusz\Desktop\projekt progi\06 comm\Projekt\obj\Debug\Projekt.Properties.Resources.resources
 C:\Users\Mateusz\Desktop\projekt progi\06 comm\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
+C:\Users\Mateusz\Desktop\projekt progi\07 comm\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\Mateusz\Desktop\projekt progi\07 comm\Projekt\obj\Debug\Projekt.exe
+C:\Users\Mateusz\Desktop\projekt progi\07 comm\Projekt\obj\Debug\Projekt.pdb
+C:\Users\Mateusz\Desktop\projekt progi\07 comm\Projekt\bin\Debug\Projekt.exe
+C:\Users\Mateusz\Desktop\projekt progi\07 comm\Projekt\bin\Debug\Projekt.pdb
+C:\Users\Mateusz\Desktop\projekt progi\07 comm\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\Mateusz\Desktop\projekt progi\07 comm\Projekt\obj\Debug\Projekt.Form1.resources
+C:\Users\Mateusz\Desktop\projekt progi\07 comm\Projekt\obj\Debug\Projekt.Menu.resources
+C:\Users\Mateusz\Desktop\projekt progi\07 comm\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+C:\Users\Mateusz\Desktop\projekt progi\07 comm\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
+C:\Users\Mateusz\Desktop\projekt progi\wykonane\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\Mateusz\Desktop\projekt progi\wykonane\Projekt\obj\Debug\Projekt.exe
+C:\Users\Mateusz\Desktop\projekt progi\wykonane\Projekt\obj\Debug\Projekt.pdb
