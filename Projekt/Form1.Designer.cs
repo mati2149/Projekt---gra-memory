@@ -294,7 +294,8 @@
             // 
             // pozwolenie
             // 
-            this.pozwolenie.Interval = 1000;
+            this.pozwolenie.Interval = 690;
+            this.pozwolenie.Tick += new System.EventHandler(this.OdstepCzasu);
             // 
             // Form1
             // 

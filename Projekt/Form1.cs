@@ -27,6 +27,7 @@ namespace Projekt
                 {
                     int x = 0;
                     TabelaZnakow.Text = znaki[x];
+                    TabelaZnakow.ForeColor = TabelaZnakow.BackColor;
                     znaki.RemoveAt(x);
                 }
             }
@@ -44,13 +45,19 @@ namespace Projekt
 
             if (kliknietatab != null)
             {
+                if (kliknietatab.ForeColor == Color.Black)
+                    return;
+
+
                 if (PierwszeKlikniecie == null)
                 {
                     PierwszeKlikniecie = kliknietatab;
+                    PierwszeKlikniecie.ForeColor = Color.Black;
                     return;
                 }
 
                 DrugieKlikniecie = kliknietatab;
+                DrugieKlikniecie.ForeColor = Color.Black;
 
                 if (PierwszeKlikniecie.Text == DrugieKlikniecie.Text)
                 {
@@ -63,8 +70,17 @@ namespace Projekt
             }
 
         }
+        private void OdstepCzasu(object y, EventArgs e)
+        {
+            pozwolenie.Stop();
 
+            PierwszeKlikniecie.ForeColor = PierwszeKlikniecie.BackColor;
+            DrugieKlikniecie.ForeColor = DrugieKlikniecie.BackColor;
 
+            PierwszeKlikniecie = null;
+            DrugieKlikniecie = null;
+
+        }
 
 
         public Form1()
