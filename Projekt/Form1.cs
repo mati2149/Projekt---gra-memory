@@ -14,8 +14,8 @@ namespace Projekt
     {
         List<string> znaki = new List<string>()
         {
-            "a", "a", "b", "b", "c", "c", "d", "d",
-            "e", "e", "f", "f", "g", "g", "h", "h"
+            "L", "L", "N", "N", "O", "O", "U", "U",
+            "v", "v", "b", "b", "j", "j", "k", "k"
         };
 
         Random losowo = new Random();
