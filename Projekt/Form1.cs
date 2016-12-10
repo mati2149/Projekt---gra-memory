@@ -59,13 +59,15 @@ namespace Projekt
                 DrugieKlikniecie = kliknietatab;
                 DrugieKlikniecie.ForeColor = Color.Black;
 
+                CzyJestesZwyciezca();
+
                 if (PierwszeKlikniecie.Text == DrugieKlikniecie.Text)
                 {
                     PierwszeKlikniecie = null;
                     DrugieKlikniecie = null;
                     return;
                 }
-
+                
                 pozwolenie.Start();
             }
 
@@ -81,6 +83,26 @@ namespace Projekt
             DrugieKlikniecie = null;
 
         }
+
+        private void CzyJestesZwyciezca()
+        {
+            foreach (Control e in tableLayoutPanel1.Controls)
+            {
+                Label TabelaZnakow = e as Label;
+
+                if (TabelaZnakow != null)
+                {
+                    if (TabelaZnakow.ForeColor == TabelaZnakow.BackColor)
+                        return;
+                }
+            }
+            MessageBox.Show("Udało ci sie prawidłowo odkryć wszystkie obrazki!\nJesteś zwycięzcą!");
+            this.Visible = false;
+            Menu ddd = new Menu();
+            ddd.ShowDialog();
+            this.Close();
+        }
+
 
 
         public Form1()
