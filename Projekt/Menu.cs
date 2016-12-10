@@ -16,6 +16,7 @@ namespace Projekt
         {
             InitializeComponent();
         }
+
         private void klawiszStart_Klik(object sender, EventArgs e)
         {
             start.Enabled = false;
@@ -51,5 +52,10 @@ namespace Projekt
             this.Close();
         }
 
+        private void pictureBox2_DoubleClick(object sender, EventArgs e)
+        {
+            sekret Frmsadat = new sekret();
+            Frmsadat.ShowDialog();
+        }
     }
 }

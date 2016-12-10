@@ -53,3 +53,4 @@ C:\Users\Mateusz\Desktop\projekt progi\wykonane\Projekt\obj\Debug\Projekt.Menu.r
 C:\Users\Mateusz\Desktop\projekt progi\wykonane\Projekt\obj\Debug\Projekt.Properties.Resources.resources
 C:\Users\Mateusz\Desktop\projekt progi\wykonane\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
 C:\Users\Mateusz\Desktop\projekt progi\wykonane\Projekt\obj\Debug\Projekt.Form2.resources
+C:\Users\Mateusz\Desktop\projekt progi\wykonane\Projekt\obj\Debug\Projekt.sekret.resources
