@@ -22,15 +22,36 @@ namespace Projekt
         {
             foreach (Control e in tableLayoutPanel1.Controls)
             {
-                Label TablelaZnakow = e as Label;
-                if (TablelaZnakow != null)
+                Label TabelaZnakow = e as Label;
+                if (TabelaZnakow != null)
                 {
-                    int liczba = 0;
-                    TablelaZnakow.Text = znaki[liczba];
-                    znaki.RemoveAt(liczba);
+                    int x = 0;
+                    TabelaZnakow.Text = znaki[x];
+                    znaki.RemoveAt(x);
                 }
             }
         }
+
+        private void KliknijTabele()
+        {
+
+            bool pozwolenie = true;
+
+            if (pozwolenie == true)
+                return;
+
+            
+
+            if (pozwolenie != false)
+            {
+                
+
+
+            }
+
+        }
+
+
 
 
         public Form1()
