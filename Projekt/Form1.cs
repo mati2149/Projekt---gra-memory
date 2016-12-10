@@ -31,22 +31,35 @@ namespace Projekt
                 }
             }
         }
+        Label PierwszeKlikniecie = null;
+        Label DrugieKlikniecie = null;
 
-        private void KliknijTabele()
+        private void KliknijTabele(object y, EventArgs e)
         {
 
-            bool pozwolenie = true;
-
-            if (pozwolenie == true)
+            if (pozwolenie.Enabled == true)
                 return;
 
-            
+            Label kliknietatab = y as Label;
 
-            if (pozwolenie != false)
+            if (kliknietatab != null)
             {
-                
+                if (PierwszeKlikniecie == null)
+                {
+                    PierwszeKlikniecie = kliknietatab;
+                    return;
+                }
 
+                DrugieKlikniecie = kliknietatab;
 
+                if (PierwszeKlikniecie.Text == DrugieKlikniecie.Text)
+                {
+                    PierwszeKlikniecie = null;
+                    DrugieKlikniecie = null;
+                    return;
+                }
+
+                pozwolenie.Start();
             }
 
         }

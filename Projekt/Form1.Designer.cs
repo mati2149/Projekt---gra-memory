@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label16 = new System.Windows.Forms.Label();
@@ -46,6 +47,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pozwolenie = new System.Windows.Forms.Timer(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,6 +95,7 @@
             this.label16.TabIndex = 15;
             this.label16.Text = "s";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label16.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label15
             // 
@@ -105,6 +108,7 @@
             this.label15.TabIndex = 14;
             this.label15.Text = "s";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label15.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label14
             // 
@@ -117,6 +121,7 @@
             this.label14.TabIndex = 13;
             this.label14.Text = "s";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label14.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label13
             // 
@@ -129,6 +134,7 @@
             this.label13.TabIndex = 12;
             this.label13.Text = "s";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label13.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label12
             // 
@@ -141,6 +147,7 @@
             this.label12.TabIndex = 11;
             this.label12.Text = "s";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label12.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label11
             // 
@@ -153,6 +160,7 @@
             this.label11.TabIndex = 10;
             this.label11.Text = "s";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label11.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label10
             // 
@@ -165,6 +173,7 @@
             this.label10.TabIndex = 9;
             this.label10.Text = "s";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label10.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label9
             // 
@@ -177,6 +186,7 @@
             this.label9.TabIndex = 8;
             this.label9.Text = "s";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label9.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label8
             // 
@@ -189,6 +199,7 @@
             this.label8.TabIndex = 7;
             this.label8.Text = "s";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label8.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label7
             // 
@@ -201,6 +212,7 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "s";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label7.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label6
             // 
@@ -213,6 +225,7 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "s";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label6.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label5
             // 
@@ -225,6 +238,7 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "s";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label5.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label4
             // 
@@ -237,6 +251,7 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "s";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label3
             // 
@@ -249,6 +264,7 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "s";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label2
             // 
@@ -261,6 +277,7 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "s";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label2.Click += new System.EventHandler(this.KliknijTabele);
             // 
             // label1
             // 
@@ -273,6 +290,11 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "s";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.Click += new System.EventHandler(this.KliknijTabele);
+            // 
+            // pozwolenie
+            // 
+            this.pozwolenie.Interval = 1000;
             // 
             // Form1
             // 
@@ -307,5 +329,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer pozwolenie;
     }
 }
