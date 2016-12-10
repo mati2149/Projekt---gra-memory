@@ -18,6 +18,8 @@ namespace Projekt
             "e", "e", "f", "f", "g", "g", "h", "h"
         };
 
+        Random losowo = new Random();
+
         private void DobierzZanaki()
         {
             foreach (Control e in tableLayoutPanel1.Controls)
@@ -25,7 +27,7 @@ namespace Projekt
                 Label TabelaZnakow = e as Label;
                 if (TabelaZnakow != null)
                 {
-                    int x = 0;
+                    int x = losowo.Next(znaki.Count);
                     TabelaZnakow.Text = znaki[x];
                     TabelaZnakow.ForeColor = TabelaZnakow.BackColor;
                     znaki.RemoveAt(x);
