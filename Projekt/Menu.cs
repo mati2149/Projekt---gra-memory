@@ -57,5 +57,11 @@ namespace Projekt
             sekret Frmsadat = new sekret();
             Frmsadat.ShowDialog();
         }
+        private void klawiszInstrukcja_Klik(object sender, EventArgs e)
+        {
+            instrukcja.Enabled = false;
+            instrukcja.Visible = false;
+            textBox1.Visible = true;
+        }
     }
 }

@@ -36,6 +36,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.latwe = new System.Windows.Forms.Button();
             this.trudne = new System.Windows.Forms.Button();
+            this.instrukcja = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -51,7 +53,7 @@
             // 
             // autorzy
             // 
-            this.autorzy.Location = new System.Drawing.Point(30, 340);
+            this.autorzy.Location = new System.Drawing.Point(30, 370);
             this.autorzy.Name = "autorzy";
             this.autorzy.Size = new System.Drawing.Size(150, 50);
             this.autorzy.TabIndex = 1;
@@ -71,7 +73,7 @@
             // 
             // koniec
             // 
-            this.koniec.Location = new System.Drawing.Point(30, 440);
+            this.koniec.Location = new System.Drawing.Point(30, 470);
             this.koniec.Name = "koniec";
             this.koniec.Size = new System.Drawing.Size(150, 50);
             this.koniec.TabIndex = 3;
@@ -112,11 +114,34 @@
             this.trudne.Visible = false;
             this.trudne.Click += new System.EventHandler(this.klawiszTrudne_Klik);
             // 
+            // instrukcja
+            // 
+            this.instrukcja.Location = new System.Drawing.Point(30, 270);
+            this.instrukcja.Name = "instrukcja";
+            this.instrukcja.Size = new System.Drawing.Size(150, 50);
+            this.instrukcja.TabIndex = 7;
+            this.instrukcja.Text = "Jak grać?";
+            this.instrukcja.UseVisualStyleBackColor = true;
+            this.instrukcja.Click += new System.EventHandler(this.klawiszInstrukcja_Klik);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(30, 270);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(457, 50);
+            this.textBox1.TabIndex = 8;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
+            this.textBox1.Visible = false;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.instrukcja);
             this.Controls.Add(this.trudne);
             this.Controls.Add(this.latwe);
             this.Controls.Add(this.pictureBox2);
@@ -131,6 +156,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -143,5 +169,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button latwe;
         private System.Windows.Forms.Button trudne;
+        private System.Windows.Forms.Button instrukcja;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
