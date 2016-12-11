@@ -54,3 +54,15 @@ C:\Users\Mateusz\Desktop\projekt progi\wykonane\Projekt\obj\Debug\Projekt.Proper
 C:\Users\Mateusz\Desktop\projekt progi\wykonane\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
 C:\Users\Mateusz\Desktop\projekt progi\wykonane\Projekt\obj\Debug\Projekt.Form2.resources
 C:\Users\Mateusz\Desktop\projekt progi\wykonane\Projekt\obj\Debug\Projekt.sekret.resources
+C:\Users\Mateusz\Desktop\projekt progi\ddd\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\Mateusz\Desktop\projekt progi\ddd\Projekt\obj\Debug\Projekt.exe
+C:\Users\Mateusz\Desktop\projekt progi\ddd\Projekt\obj\Debug\Projekt.pdb
+C:\Users\Mateusz\Desktop\projekt progi\ddd\Projekt\bin\Debug\Projekt.exe
+C:\Users\Mateusz\Desktop\projekt progi\ddd\Projekt\bin\Debug\Projekt.pdb
+C:\Users\Mateusz\Desktop\projekt progi\ddd\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\Mateusz\Desktop\projekt progi\ddd\Projekt\obj\Debug\Projekt.Form1.resources
+C:\Users\Mateusz\Desktop\projekt progi\ddd\Projekt\obj\Debug\Projekt.Form2.resources
+C:\Users\Mateusz\Desktop\projekt progi\ddd\Projekt\obj\Debug\Projekt.sekret.resources
+C:\Users\Mateusz\Desktop\projekt progi\ddd\Projekt\obj\Debug\Projekt.Menu.resources
+C:\Users\Mateusz\Desktop\projekt progi\ddd\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+C:\Users\Mateusz\Desktop\projekt progi\ddd\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
