@@ -32,7 +32,7 @@ namespace Projekt
                 {
                     int x = losowo.Next(znaki.Count);
                     TabelaZnakow.Text = znaki[x];
-                    //TabelaZnakow.ForeColor = TabelaZnakow.BackColor;
+                    TabelaZnakow.ForeColor = TabelaZnakow.BackColor;
                     znaki.RemoveAt(x);
                 }
             }
@@ -101,7 +101,7 @@ namespace Projekt
                         return;
                 }
             }
-            MessageBox.Show("Udało ci sie prawidłowo odkryć wszystkie obrazki!\nJesteś zwycięzcą!");
+            MessageBox.Show("Brawo, ułożyłeś wszystkie obrazki!\nJesteś hardkorem!");
             this.Visible = false;
             Menu ddd = new Menu();
             ddd.ShowDialog();
