@@ -30,10 +30,10 @@ namespace Projekt
                 Label TabelaZnakow = e as Label;
                 if (TabelaZnakow != null)
                 {
-                    int liczba = 0;
-                    TabelaZnakow.Text = znaki[liczba];
+                    int x = losowo.Next(znaki.Count);
+                    TabelaZnakow.Text = znaki[x];
                     //TabelaZnakow.ForeColor = TabelaZnakow.BackColor;
-                    znaki.RemoveAt(liczba);
+                    znaki.RemoveAt(x);
                 }
             }
         }
